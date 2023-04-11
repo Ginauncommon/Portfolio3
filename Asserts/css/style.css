@@ -156,6 +156,12 @@ nav ul li a::after{
   color: #fff;
   text-align: center;
 }
+.PROJECTS{
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
 
 .work-list{
   display: grid;
@@ -611,6 +617,27 @@ nav .bx{
     color: #fff;
     font-family: 'phenomenaregular';
     overflow: hidden;
+   }
+   #coffee1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    right: 361px;
+    font-family: 'phenomenaregular';
+   }
+   #ecom {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 10px;
+    font-family: 'phenomenaregular';
+   }
+   #website1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    right:361px;
+    font-family: 'phenomenaregular';
    }
 }
 
