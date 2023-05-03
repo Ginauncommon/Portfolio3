@@ -118,6 +118,9 @@ nav ul li a::after{
 .about-col-2{
   flex-basis: 60%;
 }
+.about-col-2 p{
+  width: 93%;
+}
 .subtitle{
   font-size: 60px;
   font-weight: 600;
@@ -161,6 +164,10 @@ nav ul li a::after{
   font-weight: 600;
   color: #fff;
   text-align: center;
+}
+
+.projects .toggle-inner{
+  display: none;
 }
 
 .work-list{
@@ -464,16 +471,34 @@ nav .bx{
     margin-left: 0%;
     bottom: 800px;
     width: 100%;
+    transform: translateX(90px);
+  }
+
+  .projects .toggle-inner{
+    display: flex;
+    justify-content: end;
+    transform: translateY(-140%);
+    color: white;
+  }
+
+  #sidemenu .toggle-inner{
+    transform: translateY(50px);
+    color: white;
+  }
+  .aboutgirl{
+    transform: translateX(120px);
   }
   .text{
     font-size: 14px;
     margin-left: 5%;
     top: 500px;
+    transform: translateX(35px);
   }
   nav .bx{
     display: block;
     font-size: 25px;
     margin-right: 20%;
+    transform: translateX(61px);
   }
   
   nav ul{
@@ -486,40 +511,68 @@ nav .bx{
     padding-top: 50px;
     z-index: 2;
     transition: right 0.5s;
+    transform: translateX(30px);
   }
   nav ul li{
     display: block;
     margin: 25px;
+    transform: translateX(30px);
   }
   nav ul .bx{
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
+    transform: translateX(30px);
   }
   .subtitle{
     font-size: 40px;
+    transform: translateX(61px);
   }
   .about-col-1, .about-col-2{
     flex-basis: 100%;
+    width: 100%;
+    transform: translateX(61px);
   }
   .about-col-1{
     margin-bottom: 80px;
+    transform: translateX(30px);
   }
   .about-col-2{
-    font-size: 14px;
+    transform: translateX(80px);
   }
-  .about{
+  /* .about{
     width: 100%;
-  }
+    transform: translate(61px);
+  } */
   .contact-left,.contact-right{
     flex-basis: 100%;
+    transform: translateX(11px);
   }
   #contact{
     padding: 0%;
+    transform: translateX(30px);
+  }
+  .heading{
+    transform: translateX(30px); 
+  }
+  .work{
+    transform: translateX(30px); 
+  }
+  .coffee{
+    width: 100%;
+    height: 60vh;
+  }
+  .website{
+    width: 100%;
+    height: 60vh;
+    transform: translateX(); 
+  }
+  .btn{
+    transform: translateX(61px); 
   }
   .heading2{
-    font-size: 14px;
+    transform: translateX(1px); 
   }
   .copyright{
     width: 100%;
@@ -531,13 +584,21 @@ nav .bx{
     color: #fff;
     font-family: 'phenomenaregular';
     overflow: hidden;
+    transform: translateX(50px);
    }
-   #coffee1 {
+   .btn.btn2{
+    display: inline-block;
+    background: #fea609;
+    font-family: 'phenomenaregular';
+    transform: translateX(10px);
+  }
+   #nfts {
     height: 100%;
     width: 100%;
     position: relative;
     right: 361px;
     font-family: 'phenomenaregular';
+    transform: translateX(10px);
    }
    #ecom {
     height: 100%;
@@ -545,6 +606,7 @@ nav .bx{
     position: relative;
     right: 10px;
     font-family: 'phenomenaregular';
+    transform: translateX(10px);
    }
    #website1{
     height: 100%;
@@ -552,6 +614,7 @@ nav .bx{
     position: relative;
     right:361px;
     font-family: 'phenomenaregular';
+    transform: translateX(10px);
    }
    .PROJECTS{
     font-size: 60px;
@@ -560,6 +623,7 @@ nav .bx{
     text-align: center;
     margin-right: 280px;
     width: 100%;
+    transform: translateX(61px);
    }
    .coffee{
     /* height: 60vh; */
